@@ -1,1 +1,59 @@
 /* Add your own styles */
+
+header{
+    text-align: center;
+    color: white;
+    background-color: #a2836e;
+    padding: 10px;  
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Arial, sans-serif;
+    padding-top: 10px;
+    text-align: left; 
+    background-color: #F5DEB3;  
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+    width: 70%;
+    margin: 20px auto;
+    display: flex;  
+    flex-direction: column; 
+    align-items: center; 
+    min-height: 700px; 
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input#country {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #674d3c;
+    border-radius: 8px;
+    width: 280px;
+    outline: none;
+}
+
+#controls{
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #ffefd5;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffd899;
+}
